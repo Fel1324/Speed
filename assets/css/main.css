@@ -1,0 +1,150 @@
+.main{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    padding-inline: 11rem;
+}
+
+.main__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 25rem;
+    row-gap: 15rem;
+
+    margin-top: 2rem;
+}
+
+.main__product{
+    background-color: var(--background-product-color);
+
+    padding-bottom: 2.4rem;
+
+    width: 100%;
+}
+
+.main__product div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.main__img{
+    width: 100%;
+    vertical-align: top;
+
+    padding-left: 2rem;
+}
+
+.main__name{
+    background-color: var(--background-name-product-color);
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem 0rem var(--background-shadow-product-color);
+
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+    transform: translateY(-50%);
+
+    padding-block: 2rem;
+
+    width: 84%;
+
+    transition: all 250ms;
+}
+
+.main__name:hover{
+    background-color: var(--second-color);
+    box-shadow: none;
+    color: var(--background-product-color);
+    
+    font-weight: 700;
+
+    transition: all 250ms;
+}
+
+.main__description{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+
+    width: 84%;
+}
+
+@media screen and (max-width: 1450px) {
+    .main__wrapper{
+        column-gap: 15rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main{
+        padding-inline: 5rem;
+    }
+
+    .main__name{
+        font-size: 2rem;
+
+        width: 70%;
+    }
+    
+    .main__description{
+        font-size: 1.6rem;
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .main{
+        padding-inline: 4rem;
+    }
+
+    .main__wrapper{
+        column-gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .main{
+        padding-inline: 10rem;
+    }
+
+    .main__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main__description{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .main{
+        padding-inline: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        padding-inline: 15rem;
+    }
+
+    .main__wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main{
+        padding-inline: 10rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main{
+        padding-inline: 5rem;
+    }
+}
