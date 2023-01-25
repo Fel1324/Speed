@@ -63,7 +63,7 @@ Acesse o projeto clicando [aqui](https://fel1324.github.io/Speed/).
 <h2 id="proto">🖼️ Protótipo feito no Photoshop</h2>
 
 <p align="center">
-    <img src="Speed-interface.png" alt="Protótipo da Speed feito no Photoshop">
+    <img src="Speed-interface.jpg" alt="Protótipo da Speed feito no Photoshop">
 </p>
 
 <h2 id="dev-proto">👷 Desenvolvedor do protótipo</h2>
